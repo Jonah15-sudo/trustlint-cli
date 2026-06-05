@@ -25,6 +25,18 @@ spl-tls-analyze domains.txt --profile strict --json-out report.json
 spl-tls-analyze domains.txt --profile conservative --markdown-out report.md
 ```
 
+## Free 5-Domain Sample Report
+
+TrustLint CLI is **open source and free to run locally** on any number of domains — no limits, no license key required.
+
+The free **5-domain sample report** is a commercial service preview, not a CLI restriction. Submit up to 5 domains you own or are authorized to test, and receive a lightweight preview of what a TrustLint Audit looks like.
+
+> **Important:** This is not a full security audit, penetration test, compliance certification, or security guarantee. It is a preview of the TrustLint Audits service.
+
+**Request a free sample report by opening an [Audit Request issue](https://github.com/Jonah15-sudo/trustlint-cli/issues/new?template=audit_request.md).**
+
+Paid TrustLint Audits are available for full client-ready reports, white-label agency reports, and monthly monitoring.
+
 ## What It Detects
 
 | Category | Severity | Real-World Example |
@@ -90,7 +102,13 @@ spl-tls-analyze domains.txt --profile conservative --markdown-out report.md
 
 ## TrustLint Audits
 
-TrustLint commercial TLS audit reports are available for teams, freelancers, and web agencies that want a clear, client-ready review of their domains. See [`docs/COMMERCIAL_AUDITS.md`](docs/COMMERCIAL_AUDITS.md) and [`examples/sample_tls_audit_report.md`](examples/sample_tls_audit_report.md).
+TrustLint commercial TLS audit reports are available for teams, freelancers, and web agencies that want a clear, client-ready review of their domains.
+
+**Start free:** [`docs/FREE_SAMPLE_REPORT.md`](docs/FREE_SAMPLE_REPORT.md) — up to 5 domains, service preview.
+
+**Upgrade to paid:** [`docs/COMMERCIAL_AUDITS.md`](docs/COMMERCIAL_AUDITS.md) — client-ready reports, white-label delivery, monthly monitoring, and support.
+
+**See a sample:** [`examples/sample_tls_audit_report.md`](examples/sample_tls_audit_report.md).
 
 ## Development
 
