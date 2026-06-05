@@ -1,6 +1,6 @@
 # TrustLint CLI
 
-Fast, zero-dependency TLS risk analysis with OCSP revocation detection and structured decisions.
+Fast, zero-dependency TLS risk analysis with OCSP revocation detection and structured decisions — powered by **spl-tls-analyze**.
 
 Probes domains for TLS certificate validity, checks OCSP revocation, detects deprecated protocols (TLS 1.0/1.1), and produces ALLOW/REVIEW/DENY decisions across 20 risk categories with 5 severity levels. 3 operating profiles. JSON + Markdown structured output.
 

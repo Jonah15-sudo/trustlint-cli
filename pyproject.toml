@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "spl-tls-analyze"
-version = "0.3.2b0"
+version = "0.3.3b0"
 description = "Fast, zero-dependency TLS risk analysis with OCSP revocation detection and structured decisions"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -22,6 +22,12 @@ classifiers = [
   "Topic :: Internet :: WWW/HTTP",
   "Programming Language :: Python :: 3",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Jonah15-sudo/trustlint-cli"
+Repository = "https://github.com/Jonah15-sudo/trustlint-cli"
+Issues = "https://github.com/Jonah15-sudo/trustlint-cli/issues"
+Documentation = "https://github.com/Jonah15-sudo/trustlint-cli#readme"
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
