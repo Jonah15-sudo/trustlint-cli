@@ -48,7 +48,6 @@ pip install -e ".[dev]"
 ```bash
 # Single domain
 trustlint example.com
-spl-tls-analyze example.com       # alias (same tool)
 
 # Batch from file, strict profile, JSON output
 trustlint domains.txt --profile strict --json-out report.json
@@ -68,7 +67,7 @@ trustlint --health
 ## CLI Reference
 
 ```
-trustlint | spl-tls-analyze [TARGET] [OPTIONS]
+trustlint [TARGET] [OPTIONS]
 
 Input:
   TARGET                 Domain name or path to file with domains (one per line)
